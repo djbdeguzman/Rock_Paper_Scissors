@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Are you bored? Let's Play R,P,S</title>
 </head>
 <body>
+    <button id="btn-Rock">Rock</button>
+    <button id="btn-Paper">Paper</button>
+    <button id="btn-Scissors">Scissors</button>
+    <div class="score">
+        <p>Player Score: <span class="playerScore">0</span></p>
+        <p>Computer Score: <span class="computerScore">0</span></p>
+        <div class="finalScore"><p></p></div>  
+    </div>
+    <button id="resetGame" style="display:none;" onclick="resetGame()">Reset Game</button> 
     <script src="index.js"></script>
 </body>
 </html>

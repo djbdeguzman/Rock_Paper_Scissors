@@ -46,7 +46,7 @@ function playerWin(playerChoice, computerChoice) {
     userScoreLog.innerHTML = userScore;
     computerScoreLog.innerHTML = compScore;
 
-    if (userScore < 5){result.innerHTML = `${playerChoice} beats ${computerChoice}. You win! =D`;
+    if (userScore < 5){result.innerHTML = `${playerChoice} beats ${computerChoice}. You win!`;
 }else if(userScore === 5){
   result.innerHTML="Player win the game";
   showResetButton();
